@@ -13,9 +13,6 @@
   <dsTypeModel ID="MODS" optional="true">
     <form FORMAT_URI="http://www.loc.gov/mods/v3" MIME="application/xml"/>
   </dsTypeModel>
-  <dsTypeModel ID="TECHMD" optional="true">
-    <form MIME="application/xml"/>
-  </dsTypeModel>
   <dsTypeModel ID="OBJ">
     <form MIME="image/jpeg"/>
     <form MIME="image/png"/>
@@ -28,5 +25,8 @@
   </dsTypeModel>
   <dsTypeModel ID="MEDIUM_SIZE" ORDERED="false" optional="true">
     <form MIME="image/jpg"/>
+  </dsTypeModel>
+  <dsTypeModel ID="TECHMD" optional="true">
+    <form MIME="application/xml"/>
   </dsTypeModel>
 </dsCompositeModel>
